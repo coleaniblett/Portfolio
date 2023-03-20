@@ -1,0 +1,37 @@
+.hero {
+  text-align: center;
+  border: 2rem;
+  font-family: 'Space Mono', monospace;
+}
+
+.hero-text-container {
+  padding-top: 30%;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h1, h3 span {
+  color: red;
+  text-shadow:
+    0 0 42px red,
+    0 0 82px red,
+    0 0 92px red,
+    0 0 102px red,
+    0 0 151px red;
+}
+
+h3, h1 span {
+  color: blue;
+  text-shadow:
+    0 0 42px blue,
+    0 0 82px blue,
+    0 0 92px blue,
+    0 0 102px blue,
+    0 0 151px blue;
+}
