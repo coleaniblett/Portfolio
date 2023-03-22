@@ -1,6 +1,7 @@
 import React from 'react';
+import './Portfolio.css';
 import { PortfolioItem } from '../PortfolioItem/PortfolioItem';
-import Mockups from '../../assets/DeviceMockups.png';
+import DCRAMockups from '../../assets/DCRAMockups.png';
 
 export const Portfolio: React.FC = () => {
   const placeHolderItem = {
@@ -10,9 +11,21 @@ export const Portfolio: React.FC = () => {
   }
 
   return (
-    <div>
+    <div className="portfolio">
       <PortfolioItem 
-        mockups={Mockups} 
+        mockups={DCRAMockups} 
+        title={placeHolderItem.title} 
+        tech={placeHolderItem.technologies} 
+        description={placeHolderItem.description}
+      />
+      <PortfolioItem 
+        mockups={DCRAMockups} 
+        title={placeHolderItem.title} 
+        tech={placeHolderItem.technologies} 
+        description={placeHolderItem.description}
+      />
+      <PortfolioItem 
+        mockups={DCRAMockups} 
         title={placeHolderItem.title} 
         tech={placeHolderItem.technologies} 
         description={placeHolderItem.description}
