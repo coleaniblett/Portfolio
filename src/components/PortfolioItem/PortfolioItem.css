@@ -1,3 +1,46 @@
-h5, ul, p {
-  color: white;
+.portfolio-item {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.portfolio-item-text-container {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: rgba(49, 45, 45, 0.486);
+  border-radius: 10%;
+  position: absolute;
+  width: 850px;
+  height: 303px;
+  border-radius: 10%;
+  box-sizing: border-box;
+  padding-top: 0;
+  margin-top: 1.5em;
+}
+
+.portfolio-item-text {
+  margin: 0.5em;
+  font-family: "Space Mono", monospace;
+}
+
+.portfolio-item-text-container h5 {
+  font-size: 1.5em;
+  color: red;
+}
+
+.portfolio-item-text-container .technologies {
+  color: hsl(240, 0%, 50%);
+}
+
+.portfolio-item-text-container .description {
+  color: red;
+  text-align: justify;
+}
+
+.portfolio-item img {
+  margin: 1.5em;
+  background-color: rgba(76, 76, 77, 0.986);
+  border-radius: 10%;
+  max-width: 850px;
+  max-height: 303px;
 }
