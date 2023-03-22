@@ -2,10 +2,11 @@
   text-align: center;
   border: 2rem;
   font-family: 'Space Mono', monospace;
+  background-color: black;
 }
 
 .hero-text-container {
-  padding-top: 30%;
+  padding: 30% 5% 20%;
 }
 
 h1 {
@@ -34,4 +35,24 @@ h3, h1 span {
     0 0 92px blue,
     0 0 102px blue,
     0 0 151px blue;
+}
+
+/* X-small breakpoint */
+@media screen and (max-width:575px) {
+  .hero-text-container {
+    padding-top: 15%;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Small breakpoint */
+@media screen and (min-width:576px) {
+  .hero-text-container {
+    padding-top: 20%;
+  }
 }
