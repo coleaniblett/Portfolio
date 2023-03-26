@@ -7,7 +7,8 @@
 .portfolio-item-text-container {
   margin: 2rem;
   padding: 1rem;
-  background-color: rgba(49, 45, 45, 0.486);
+  /*background-color: rgba(49, 45, 45, 0.486);*/
+  background-color: rgba(25, 25, 25, 0.7);
   border-radius: 10%;
   position: absolute;
   width: 850px;
@@ -16,6 +17,7 @@
   box-sizing: border-box;
   padding-top: 0;
   margin-top: 1.5em;
+  color: hsl(240, 0%, 50%);
 }
 
 .portfolio-item-text {
@@ -25,15 +27,11 @@
 
 .portfolio-item-text-container h5 {
   font-size: 1.5em;
-  color: red;
-}
-
-.portfolio-item-text-container .technologies {
-  color: hsl(240, 0%, 50%);
+  
 }
 
 .portfolio-item-text-container .description {
-  color: red;
+  
   text-align: justify;
 }
 
