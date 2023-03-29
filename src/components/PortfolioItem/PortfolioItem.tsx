@@ -4,11 +4,13 @@ import './PortfolioItem.css';
 interface Props {
   title: string;
   mockups: any;
+  screenImage: any;
   tech: string[];
   description: string;
+  mockupType: string;
 }
 
-export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, description}: Props) => {
+export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, description, screenImage, mockupType}: Props) => {
   const [hoverState, setHoverState] = useState(false);
 
   const showInfo = () => {
@@ -29,10 +31,17 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
     setHoverState(false);
   }
 
+  const getDesktopImage = () => {
+    return (
+      <img className="desktop-image" src={screenImage} />
+    );
+  }
+
   return (
     <div className="portfolio-item" onMouseOver={handleHover} onMouseLeave={handleLeave}>
-      <img src={mockups}></img>
+      <img className="mockup-image" src={mockups}></img>
       {hoverState && showInfo()}
+      {mockupType === "desktop" && getDesktopImage()}
     </div>
   );
 }
