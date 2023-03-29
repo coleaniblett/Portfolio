@@ -21,8 +21,8 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
         <h5 className="portfolio-item-text title">{title}</h5>
         <p className="portfolio-item-text technologies">{tech.join(", ")}</p>
         <p className="portfolio-item-text description">{description}</p>
-        <button><a href={liveURL}>Live Site</a></button>
-        <button><a href={codeURL}>Code</a></button>
+        {liveURL != undefined && <a className="live-link" href={liveURL}>Live Site</a>}
+        <a className="code-link" href={codeURL}>Code</a>
       </div>
     );
   }

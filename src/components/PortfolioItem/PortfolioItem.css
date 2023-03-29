@@ -7,6 +7,25 @@
   height: 400px;
 }
 
+.mockup-image {
+  position: absolute;
+  margin: 1.5em;
+  background-color: rgba(76, 76, 77, 0.986);
+  border-radius: 10%;
+  padding: 20px;
+}
+
+.desktop-image {
+  position: absolute;
+  width: 262px;
+  height: 147px;
+  z-index: 3;
+  border: none;
+  background-color: transparent;
+  top: 64px;
+  left: 66px;
+}
+
 .portfolio-item-text-container {
   padding: 1rem;
   background-color: rgba(25, 25, 25, 0.85);
@@ -32,25 +51,15 @@
 }
 
 .portfolio-item-text-container .description {
-  
   text-align: justify;
 }
 
-.mockup-image {
-  position: absolute;
-  margin: 1.5em;
-  background-color: rgba(76, 76, 77, 0.986);
-  border-radius: 10%;
-  padding: 20px;
-}
-
-.desktop-image {
-  position: absolute;
-  width: 262px;
-  height: 147px;
-  z-index: 3;
-  border: none;
-  background-color: transparent;
-  top: 64px;
-  left: 66px;
+.live-link, .code-link {
+  background-color: rgba(76, 76, 77, 0.7);
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  margin: 0 .5rem;
+  float: right;
+  font-family: "Space Mono", monospace;
 }
