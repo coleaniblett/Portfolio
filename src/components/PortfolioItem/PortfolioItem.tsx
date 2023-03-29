@@ -8,9 +8,11 @@ interface Props {
   tech: string[];
   description: string;
   mockupType: string;
+  liveURL: string | undefined;
+  codeURL: string;
 }
 
-export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, description, screenImage, mockupType}: Props) => {
+export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, description, screenImage, mockupType, liveURL, codeURL}: Props) => {
   const [hoverState, setHoverState] = useState(false);
 
   const showInfo = () => {
@@ -19,6 +21,8 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
         <h5 className="portfolio-item-text title">{title}</h5>
         <p className="portfolio-item-text technologies">{tech.join(", ")}</p>
         <p className="portfolio-item-text description">{description}</p>
+        <button><a href={liveURL}>Live Site</a></button>
+        <button><a href={codeURL}>Code</a></button>
       </div>
     );
   }

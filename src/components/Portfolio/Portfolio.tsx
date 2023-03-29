@@ -14,7 +14,9 @@ export const Portfolio: React.FC = () => {
         title={project.name} 
         tech={project.technologies} 
         description={project.description}
-        mockupType={project.type} />
+        mockupType={project.type} 
+        liveURL={project.liveURL}
+        codeURL={project.codeURL}/>
       })}
     </div>
   );

@@ -10,7 +10,9 @@ export const projects = [
     description: "A cocktail-recommendation app built with React. Users input " 
       + "their available ingredients and receive a list of recommended cocktails"
       + " determined through API calls to TheCocktailDB.",
-    type: "desktop"
+    type: "desktop",
+    liveURL: "https://coleaniblett.github.io/Distillation-Combination-Recommendation-Application/",
+    codeURL: "https://github.com/coleaniblett/Distillation-Combination-Recommendation-Application"
   },
   {
     image: DesktopMockup,
@@ -19,7 +21,9 @@ export const projects = [
     technologies: ["React", "Bootstrap CSS"],
     description: "A landing page for musician Amy Yeh made up of React " + 
       "components styled with a combination of Bootstrap and vanilla CSS.",
-    type: "tablet"
+    type: "tablet",
+    liveURL: undefined,
+    codeURL: "https://github.com/coleaniblett/Musician-Landing-Page"
   },
   {
     image: DesktopMockup,
@@ -29,6 +33,8 @@ export const projects = [
     description: "A text-based adventure game. Users describe player commands "
       + "in natural language to be interpreted by a parser, solving puzzles " +
       "while exploring an underground dungeon.",
-    type: "laptop"
+    type: "laptop",
+    liveURL: undefined,
+    codeURL: "https://github.com/coleaniblett/Katoche"
   }
 ]
