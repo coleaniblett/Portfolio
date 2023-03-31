@@ -10,7 +10,7 @@ export const Portfolio: React.FC = () => {
       {projects.map((project) => {
         return <PortfolioItem 
         mockups={project.image}
-        screenImage={project.screenImage} 
+        screenshots={project.screenshots} 
         title={project.name} 
         tech={project.technologies} 
         description={project.description}

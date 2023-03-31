@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './PortfolioItem.css';
 import { MockupCarousel } from '../MockupCarousel/MockupCarousel';
+import { CarouselControls } from '../CarouselControls/CarouselControls';
 
 interface Props {
   title: string;
   mockups: any;
-  screenImage: any;
+  screenshots: any;
   tech: string[];
   description: string;
   mockupType: string;
@@ -13,8 +14,16 @@ interface Props {
   codeURL: string;
 }
 
-export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, description, screenImage, mockupType, liveURL, codeURL}: Props) => {
+enum Mockup {
+  "Desktop",
+  "Laptop",
+  "Tablet",
+  "Mobile"
+}
+
+export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, description, screenshots, mockupType, liveURL, codeURL}: Props) => {
   const [hoverState, setHoverState] = useState(false);
+  const [device, setDevice] = useState(Mockup.Desktop);
 
   const showInfo = () => {
     return (
@@ -36,18 +45,29 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
     setHoverState(false);
   }
 
-  const getDesktopImage = () => {
-    return (
-      <img className="desktop-image" src={screenImage} />
-    );
+  const handleLeftClick = () => {
+    if (device === Mockup.Desktop) {
+      setDevice(Mockup.Mobile);
+    } else {
+      setDevice(prev => prev - 1);
+    }
+  }
+
+  const handleRightClick = () => {
+    if (device === Mockup.Mobile) {
+      setDevice(Mockup.Desktop);
+    } else {
+      setDevice(prev => prev + 1);
+    }
   }
 
   return (
-    <div className="portfolio-item" onMouseOver={handleHover} onMouseLeave={handleLeave}>
-      <MockupCarousel desktopImage={screenImage} />
-      {/*<img className="mockup-image" src={mockups}></img>*/}
-      {hoverState && showInfo()}
-      {/*{mockupType === "desktop" && getDesktopImage()}*/}
+    <div className="portfolio-item">
+      <div className="hover-area" onMouseOver={handleHover} onMouseLeave={handleLeave}>
+        <MockupCarousel screenshots={screenshots} device={device} />
+        {hoverState && showInfo()}
+      </div>
+      <CarouselControls handleLeftClick={handleLeftClick} handleRightClick={handleRightClick} />
     </div>
   );
 }

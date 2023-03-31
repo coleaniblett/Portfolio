@@ -1,0 +1,16 @@
+.left-button, .right-button {
+  position: absolute;
+  bottom: -10%;
+}
+
+.left-button {
+  left: 10%;
+}
+
+.right-button {
+  right: 10%;
+}
+
+.carousel-controls img {
+  width: 20px;
+}
