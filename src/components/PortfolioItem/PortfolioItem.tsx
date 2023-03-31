@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './PortfolioItem.css';
+import { MockupCarousel } from '../MockupCarousel/MockupCarousel';
 
 interface Props {
   title: string;
@@ -43,9 +44,10 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
 
   return (
     <div className="portfolio-item" onMouseOver={handleHover} onMouseLeave={handleLeave}>
-      <img className="mockup-image" src={mockups}></img>
+      <MockupCarousel desktopImage={screenImage} />
+      {/*<img className="mockup-image" src={mockups}></img>*/}
       {hoverState && showInfo()}
-      {mockupType === "desktop" && getDesktopImage()}
+      {/*{mockupType === "desktop" && getDesktopImage()}*/}
     </div>
   );
 }
