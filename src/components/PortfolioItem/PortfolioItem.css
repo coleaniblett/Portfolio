@@ -54,12 +54,16 @@
   text-align: justify;
 }
 
-.live-link, .code-link {
-  background-color: rgba(76, 76, 77, 0.7);
+.portfolio-link {
+  background-color: rgba(76, 76, 76, 0.7);
   padding: 10px;
   color: white;
   text-decoration: none;
   margin: 0 .5rem;
   float: right;
   font-family: "Space Mono", monospace;
+}
+
+.portfolio-link:hover {
+  background-color: rgba(56,56,56,0.7);
 }
