@@ -6,7 +6,9 @@ import { projects } from '../../util/Projects.js';
 
 export const Portfolio: React.FC = () => {
   return (
-    <div className="portfolio d-flex flex-row">
+    <div className="portfolio">
+      <h6>Projects</h6>
+      <div className="projects-container d-flex flex-row">
       {projects.map((project) => {
         return <PortfolioItem 
         mockups={project.image}
@@ -18,6 +20,7 @@ export const Portfolio: React.FC = () => {
         liveURL={project.liveURL}
         codeURL={project.codeURL}/>
       })}
+    </div>
     </div>
   );
 }
