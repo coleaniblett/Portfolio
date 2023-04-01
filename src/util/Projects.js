@@ -1,8 +1,16 @@
 import DesktopMockup from '../assets/DesktopMockup - Transparent.png';
-import DCRADeskptopScreen from '../assets/DCRA/DCRA2358x1323.png';
+import DCRADesktopScreen from '../assets/DCRA/DCRA2358x1323.png';
 import DCRALaptopScreen from '../assets/DCRA/DCRA2097x1262.png';
 import DCRATabletScreen from '../assets/DCRA/DCRA846x1089.png';
 import DCRAMobileScreen from '../assets/DCRA/DCRA432x837.png';
+import AmyYehMusicDesktopScreen from '../assets/AmyYehMusic/AmyYehMusic2358x1323.png';
+import AmyYehMusicLaptopScreen from '../assets/AmyYehMusic/AmyYehMusic2097x1262.png';
+import AmyYehMusicTabletScreen from '../assets/AmyYehMusic/AmyYehMusic846x1089.png';
+import AmyYehMusicMobileScreen from '../assets/AmyYehMusic/AmyYehMusic432x837.png';
+import PortfolioDesktopScreen from '../assets/Portfolio/Portfolio2358x1323.png';
+import PortfolioLaptopScreen from '../assets/Portfolio/Portfolio2097x1262.png';
+import PortfolioTabletScreen from '../assets/Portfolio/Portfolio846x1089.png';
+import PortfolioMobileScreen from '../assets/Portfolio/Portfolio432x837.png';
 
 export const projects = [
   {
@@ -16,7 +24,7 @@ export const projects = [
     liveURL: "https://coleaniblett.github.io/Distillation-Combination-Recommendation-Application/",
     codeURL: "https://github.com/coleaniblett/Distillation-Combination-Recommendation-Application",
     screenshots: {
-      desktop: DCRADeskptopScreen,
+      desktop: DCRADesktopScreen,
       laptop: DCRALaptopScreen,
       tablet: DCRATabletScreen,
       mobile: DCRAMobileScreen
@@ -32,10 +40,10 @@ export const projects = [
     liveURL: undefined,
     codeURL: "https://github.com/coleaniblett/Musician-Landing-Page",
     screenshots: {
-      desktop: DCRADeskptopScreen,
-      laptop: DCRALaptopScreen,
-      tablet: DCRATabletScreen,
-      mobile: DCRAMobileScreen
+      desktop: AmyYehMusicDesktopScreen,
+      laptop: AmyYehMusicLaptopScreen,
+      tablet: AmyYehMusicTabletScreen,
+      mobile: AmyYehMusicMobileScreen
     }
   },
   {
@@ -47,10 +55,10 @@ export const projects = [
     liveURL: undefined,
     codeURL: "https://github.com/coleaniblett/portfolio",
     screenshots: {
-      desktop: DCRADeskptopScreen,
-      laptop: DCRALaptopScreen,
-      tablet: DCRATabletScreen,
-      mobile: DCRAMobileScreen
+      desktop: PortfolioDesktopScreen,
+      laptop: PortfolioLaptopScreen,
+      tablet: PortfolioTabletScreen,
+      mobile: PortfolioMobileScreen
     }
   },
   {
@@ -64,7 +72,7 @@ export const projects = [
     liveURL: undefined,
     codeURL: "https://github.com/coleaniblett/Katoche",
     screenshots: {
-      desktop: DCRADeskptopScreen,
+      desktop: DCRADesktopScreen,
       laptop: DCRALaptopScreen,
       tablet: DCRATabletScreen,
       mobile: DCRAMobileScreen
