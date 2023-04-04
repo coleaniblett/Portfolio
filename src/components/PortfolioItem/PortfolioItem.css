@@ -3,8 +3,8 @@
   justify-content: center;
   margin: 2rem;
   background-color: rgba(76, 76, 77, 0.986);
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  aspect-ratio: 1;
 }
 
 .hover-area {
@@ -14,7 +14,7 @@
 
 .portfolio-item-text-container {
   padding: 1rem;
-  background-color: rgba(25, 25, 25, 0.85);
+  background-color: rgba(25, 25, 25, 0.9);
   position: absolute;
   padding: 1rem;
   height: 100%;
@@ -32,8 +32,12 @@
 }
 
 .portfolio-item-text-container h5 {
-  font-size: 1.5em;
+  font-size: 1.125em;
   
+}
+
+.portfolio-item-text-container p {
+  font-size: 0.875rem;
 }
 
 .portfolio-item-text-container .description {
