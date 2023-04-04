@@ -8,13 +8,13 @@ export const Links: React.FC = () => {
   return (
     <div className="links">
       <div className="contact-icon LinkedIn-icon">
-        <img src={LinkedIn}></img>
+        <a href="https://linkedin.com/coleaniblett"><img src={LinkedIn}></img></a>
       </div>
       <div className="contact-icon GitHub-icon">
-        <img src={GitHub}></img>
+        <a href="https://github.com/coleaniblett"><img src={GitHub}></img></a>
       </div>
       <div className="contact-icon">
-        <img src={Email}></img>
+        <a href="mailto:coleaniblett@gmail.com"><img src={Email}></img></a>
       </div>
     </div>
   );
