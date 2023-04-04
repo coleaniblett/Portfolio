@@ -68,7 +68,7 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
   return (
     <div className="portfolio-item">
       <div className="hover-area" onMouseOver={handleHover} onMouseLeave={handleLeave} onClick={toggleInfo}>
-        <MockupCarousel screenshots={screenshots} device={device} />
+        <MockupCarousel screenshots={screenshots} device={device} name={title} />
         {hoverState && showInfo()}
       </div>
       <CarouselControls handleLeftClick={handleLeftClick} handleRightClick={handleRightClick} />
