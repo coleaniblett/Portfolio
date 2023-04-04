@@ -61,7 +61,7 @@ export const projects = [
       mobile: PortfolioMobileScreen
     }
   },
-  {
+  /*{
     image: DesktopMockup,
     name: "Katoche",
     technologies: ["C++", "OOP"],
@@ -77,5 +77,5 @@ export const projects = [
       tablet: DCRATabletScreen,
       mobile: DCRAMobileScreen
     }
-  }
+  }*/
 ]
