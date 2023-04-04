@@ -10,17 +10,22 @@ export const Portfolio: React.FC = () => {
       <h6>Projects</h6>
       <div className="projects-container d-flex flex-row">
       {projects.map((project) => {
-        return <PortfolioItem 
-        mockups={project.image}
-        screenshots={project.screenshots} 
-        title={project.name} 
-        tech={project.technologies} 
-        description={project.description}
-        mockupType={project.type} 
-        liveURL={project.liveURL}
-        codeURL={project.codeURL}/>
+        return (
+          <div className="project-wrapper" key={project.name}>
+            <PortfolioItem 
+              mockups={project.image}
+              screenshots={project.screenshots} 
+              title={project.name} 
+              tech={project.technologies} 
+              description={project.description}
+              mockupType={project.type} 
+              liveURL={project.liveURL}
+              codeURL={project.codeURL}
+            />
+          </div>
+        )
       })}
-    </div>
+      </div>
     </div>
   );
 }
