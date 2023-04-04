@@ -4,6 +4,7 @@
   margin: 2rem;
   background-color: rgba(76, 76, 77, 0.986);
   width: 100%;
+  max-width: 400px;
   aspect-ratio: 1;
 }
 

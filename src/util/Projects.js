@@ -17,8 +17,8 @@ export const projects = [
     image: DesktopMockup,
     name: "The Distillation-Combination-Recommendation-Application",
     technologies: ["React", "API calls"],
-    description: "A cocktail-recommendation app built with React. Users input " 
-      + "their available ingredients and receive a list of recommended cocktails"
+    description: "A cocktail-recommendation app. Users input " 
+      + "their available ingredients and receive a list of cocktails"
       + " determined through API calls to TheCocktailDB.",
     type: "desktop",
     liveURL: "https://coleaniblett.github.io/Distillation-Combination-Recommendation-Application/",

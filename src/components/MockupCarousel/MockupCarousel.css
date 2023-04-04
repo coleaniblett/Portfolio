@@ -14,9 +14,9 @@
 
 .mockup-image {
   position: absolute;
+  background-color: transparent;
   margin: 1.5em;
-  background-color: rgba(76, 76, 77, 0.986);
-  border-radius: 10%;
+  background-color: transparent;
   
 }
 
@@ -26,10 +26,10 @@
 }
 
 .desktop-image {
-  position: absolute;
+  position: relative;
+  bottom: 37px;
   width: 262px;
   height: 147px;
-  top: 89px;
 }
 
 .laptop-image {

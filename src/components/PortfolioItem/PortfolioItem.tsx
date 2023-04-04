@@ -45,6 +45,10 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
     setHoverState(false);
   }
 
+  const toggleInfo = () => {
+    setHoverState(!hoverState);
+  }
+
   const handleLeftClick = () => {
     if (device === Mockup.Desktop) {
       setDevice(Mockup.Mobile);
@@ -63,7 +67,7 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
 
   return (
     <div className="portfolio-item">
-      <div className="hover-area" onMouseOver={handleHover} onMouseLeave={handleLeave}>
+      <div className="hover-area" onMouseOver={handleHover} onMouseLeave={handleLeave} onClick={toggleInfo}>
         <MockupCarousel screenshots={screenshots} device={device} />
         {hoverState && showInfo()}
       </div>
