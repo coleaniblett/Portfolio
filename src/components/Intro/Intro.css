@@ -1,6 +1,6 @@
 .intro {
-  background: linear-gradient(to bottom, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(65,65,65,0.25) 100%);
   padding-top: 16rem;
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 45%);
 }
 
 .intro-text-container {
@@ -21,13 +21,6 @@
   font-size: 1.2rem;
 }
 
-/* X-small breakpoint */
-@media screen and (max-width:575px) {
-  .intro {
-    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(65,65,65,0.05) 25%);
-  }
-}
-
 /* Medium Breakpoint */
 @media screen and (max-width:768px) {
   .intro {
@@ -35,9 +28,9 @@
   }
 }
 
-/* Large Breakpoint */
-@media screen and (max-width:992px) {
+/* X-small breakpoint */
+@media screen and (max-width:575px) {
   .intro {
-    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(65,65,65,0.05) 45%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(65,65,65,0.05) 25%);
   }
 }

@@ -3,6 +3,7 @@
   border: 2rem;
   font-family: 'Space Mono', monospace;
   background-color: black;
+  height: 100dvh;
 }
 
 .hero-text-container {
@@ -56,3 +57,19 @@ h3, h1 span {
     padding-top: 20%;
   }
 }
+
+/* Alternative Idea */
+
+/*h1, h3 {
+  color: white;
+
+}
+
+.hero {
+  background-image: url("https://cdn.glitch.me/dd451aa8-1bb7-4497-a710-50724ec1974c%2FRainbowBackground2.jpg?v=1634755950212");
+  background-color: #000000;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
