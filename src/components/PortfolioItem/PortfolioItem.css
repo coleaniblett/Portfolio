@@ -12,6 +12,10 @@
   height: 100%;
 }
 
+.hover-area:hover > .portfolio-item-text-container  {
+  opacity: 1;
+}
+
 .portfolio-item-text-container {
   padding: 1rem;
   background-color: rgba(25, 25, 25, 0.9);
@@ -24,6 +28,8 @@
   padding-top: 0;
   color: hsl(240, 0%, 50%);
   z-index: 5;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
 }
 
 .portfolio-item-text {
