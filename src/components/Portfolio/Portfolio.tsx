@@ -1,7 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
 import { PortfolioItem } from '../PortfolioItem/PortfolioItem';
-import DCRAMockups from '../../assets/DCRAMockups.png';
 import { projects } from '../../util/Projects';
 
 export const Portfolio: React.FC = () => {
