@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/coleaniblett/portfolio-2.0/static/css/main.79589233.css",
-    "main.js": "/coleaniblett/portfolio-2.0/static/js/main.bf7ffdee.js",
-    "static/media/DCRA2358x1323.png": "/coleaniblett/portfolio-2.0/static/media/DCRA2358x1323.40cd6e9d789721be2193.png",
-    "static/media/DCRA2097x1262.png": "/coleaniblett/portfolio-2.0/static/media/DCRA2097x1262.eaf48d9d851c0e4eefd0.png",
-    "static/media/AmyYehMusic2358x1323.png": "/coleaniblett/portfolio-2.0/static/media/AmyYehMusic2358x1323.7f495434b5a68a40eb29.png",
-    "static/media/AmyYehMusic2097x1262.png": "/coleaniblett/portfolio-2.0/static/media/AmyYehMusic2097x1262.0c8d00665c832ca7bf25.png",
-    "static/media/AmyYehMusic846x1089.png": "/coleaniblett/portfolio-2.0/static/media/AmyYehMusic846x1089.0cabf644e06cf73055d3.png",
-    "static/media/DCRA846x1089.png": "/coleaniblett/portfolio-2.0/static/media/DCRA846x1089.2a87f5fe880d346c88e6.png",
-    "static/media/AmyYehMusic432x837.png": "/coleaniblett/portfolio-2.0/static/media/AmyYehMusic432x837.a1821d3bd17a79ec2d38.png",
-    "static/media/Portfolio2358x1323.png": "/coleaniblett/portfolio-2.0/static/media/Portfolio2358x1323.8e2fc60295f562faaa12.png",
-    "static/media/Portfolio2097x1262.png": "/coleaniblett/portfolio-2.0/static/media/Portfolio2097x1262.bc1917d1bd4edc6e9774.png",
-    "static/media/Portfolio846x1089.png": "/coleaniblett/portfolio-2.0/static/media/Portfolio846x1089.7618ec97b842b111fb98.png",
-    "static/media/DCRA432x837.png": "/coleaniblett/portfolio-2.0/static/media/DCRA432x837.406850363a1daf88d861.png",
-    "static/media/Portfolio432x837.png": "/coleaniblett/portfolio-2.0/static/media/Portfolio432x837.beb85158f1f78b0064eb.png",
-    "static/media/GitHub.png": "/coleaniblett/portfolio-2.0/static/media/GitHub.9a4a45752d8237d88935.png",
-    "static/media/Email.png": "/coleaniblett/portfolio-2.0/static/media/Email.ac863c4a1efc2b9026dd.png",
-    "static/media/LinkedIn.png": "/coleaniblett/portfolio-2.0/static/media/LinkedIn.68429c9678416899b760.png",
-    "static/media/DesktopMockup - Transparent.png": "/coleaniblett/portfolio-2.0/static/media/DesktopMockup - Transparent.965bc1d3989804eb39b7.png",
-    "static/media/LaptopMockup - Transparent.png": "/coleaniblett/portfolio-2.0/static/media/LaptopMockup - Transparent.34c16f423ede9d9c2c0a.png",
-    "index.html": "/coleaniblett/portfolio-2.0/index.html",
-    "main.79589233.css.map": "/coleaniblett/portfolio-2.0/static/css/main.79589233.css.map",
-    "main.bf7ffdee.js.map": "/coleaniblett/portfolio-2.0/static/js/main.bf7ffdee.js.map"
+    "main.css": "/portfolio-2.0/static/css/main.79589233.css",
+    "main.js": "/portfolio-2.0/static/js/main.2a251cea.js",
+    "static/media/DCRA2358x1323.png": "/portfolio-2.0/static/media/DCRA2358x1323.40cd6e9d789721be2193.png",
+    "static/media/DCRA2097x1262.png": "/portfolio-2.0/static/media/DCRA2097x1262.eaf48d9d851c0e4eefd0.png",
+    "static/media/AmyYehMusic2358x1323.png": "/portfolio-2.0/static/media/AmyYehMusic2358x1323.7f495434b5a68a40eb29.png",
+    "static/media/AmyYehMusic2097x1262.png": "/portfolio-2.0/static/media/AmyYehMusic2097x1262.0c8d00665c832ca7bf25.png",
+    "static/media/AmyYehMusic846x1089.png": "/portfolio-2.0/static/media/AmyYehMusic846x1089.0cabf644e06cf73055d3.png",
+    "static/media/DCRA846x1089.png": "/portfolio-2.0/static/media/DCRA846x1089.2a87f5fe880d346c88e6.png",
+    "static/media/AmyYehMusic432x837.png": "/portfolio-2.0/static/media/AmyYehMusic432x837.a1821d3bd17a79ec2d38.png",
+    "static/media/Portfolio2358x1323.png": "/portfolio-2.0/static/media/Portfolio2358x1323.8e2fc60295f562faaa12.png",
+    "static/media/Portfolio2097x1262.png": "/portfolio-2.0/static/media/Portfolio2097x1262.bc1917d1bd4edc6e9774.png",
+    "static/media/Portfolio846x1089.png": "/portfolio-2.0/static/media/Portfolio846x1089.7618ec97b842b111fb98.png",
+    "static/media/DCRA432x837.png": "/portfolio-2.0/static/media/DCRA432x837.406850363a1daf88d861.png",
+    "static/media/Portfolio432x837.png": "/portfolio-2.0/static/media/Portfolio432x837.beb85158f1f78b0064eb.png",
+    "static/media/GitHub.png": "/portfolio-2.0/static/media/GitHub.9a4a45752d8237d88935.png",
+    "static/media/Email.png": "/portfolio-2.0/static/media/Email.ac863c4a1efc2b9026dd.png",
+    "static/media/LinkedIn.png": "/portfolio-2.0/static/media/LinkedIn.68429c9678416899b760.png",
+    "static/media/DesktopMockup - Transparent.png": "/portfolio-2.0/static/media/DesktopMockup - Transparent.965bc1d3989804eb39b7.png",
+    "static/media/LaptopMockup - Transparent.png": "/portfolio-2.0/static/media/LaptopMockup - Transparent.34c16f423ede9d9c2c0a.png",
+    "index.html": "/portfolio-2.0/index.html",
+    "main.79589233.css.map": "/portfolio-2.0/static/css/main.79589233.css.map",
+    "main.2a251cea.js.map": "/portfolio-2.0/static/js/main.2a251cea.js.map"
   },
   "entrypoints": [
     "static/css/main.79589233.css",
-    "static/js/main.bf7ffdee.js"
+    "static/js/main.2a251cea.js"
   ]
 }
