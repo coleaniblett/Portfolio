@@ -22,7 +22,6 @@ enum Mockup {
 }
 
 export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, description, screenshots, mockupType, liveURL, codeURL}: Props) => {
-  const [hoverState, setHoverState] = useState(false);
   const [device, setDevice] = useState(Mockup.Desktop);
 
   const showInfo = () => {
@@ -35,18 +34,6 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
         <a className="code-link portfolio-link" href={codeURL}>Code</a>
       </div>
     );
-  }
-
-  const handleHover = () => {
-    setHoverState(true);
-  }
-
-  const handleLeave = () => {
-    setHoverState(false);
-  }
-
-  const toggleInfo = () => {
-    setHoverState(!hoverState);
   }
 
   const handleLeftClick = () => {
@@ -67,7 +54,7 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
 
   return (
     <div className="portfolio-item">
-      <div className="hover-area" onMouseOver={handleHover} onMouseLeave={handleLeave} onClick={toggleInfo}>
+      <div className="hover-area">
         <MockupCarousel screenshots={screenshots} device={device} name={title} />
         <div className="portfolio-item-text-container">
           <h5 className="portfolio-item-text title">{title}</h5>
