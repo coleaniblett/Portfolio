@@ -13,12 +13,10 @@ export const Portfolio: React.FC = () => {
         return (
           <div className="project-wrapper" key={project.name}>
             <PortfolioItem 
-              mockups={project.image}
               screenshots={project.screenshots} 
               title={project.name} 
               tech={project.technologies} 
-              description={project.description}
-              mockupType={project.type} 
+              description={project.description} 
               liveURL={project.liveURL}
               codeURL={project.codeURL}
             />

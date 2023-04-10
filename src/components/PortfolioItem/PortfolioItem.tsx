@@ -5,11 +5,9 @@ import { CarouselControls } from '../CarouselControls/CarouselControls';
 
 interface Props {
   title: string;
-  mockups: any;
   screenshots: any;
   tech: string[];
   description: string;
-  mockupType: string;
   liveURL: string;
   codeURL: string;
 }
@@ -21,7 +19,7 @@ enum Mockup {
   "Mobile"
 }
 
-export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, description, screenshots, mockupType, liveURL, codeURL}: Props) => {
+export const PortfolioItem: React.FC<Props> = ({title, tech, description, screenshots, liveURL, codeURL}: Props) => {
   const [device, setDevice] = useState<Mockup>(Mockup.Desktop);
 
   const handleLeftClick: () => void = () => {
