@@ -4,7 +4,8 @@
 }
 
 .intro-text-container {
-  max-width: 60%;
+  max-width: 800px;
+  padding: 5%;
   margin: auto;
 }
 
