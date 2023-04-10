@@ -10,7 +10,7 @@ interface Props {
   tech: string[];
   description: string;
   mockupType: string;
-  liveURL: string | undefined;
+  liveURL: string;
   codeURL: string;
 }
 
@@ -22,21 +22,9 @@ enum Mockup {
 }
 
 export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, description, screenshots, mockupType, liveURL, codeURL}: Props) => {
-  const [device, setDevice] = useState(Mockup.Desktop);
+  const [device, setDevice] = useState<Mockup>(Mockup.Desktop);
 
-  const showInfo = () => {
-    return (
-      <div className="portfolio-item-text-container">
-        <h5 className="portfolio-item-text title">{title}</h5>
-        <p className="portfolio-item-text technologies">{tech.join(", ")}</p>
-        <p className="portfolio-item-text description">{description}</p>
-        {liveURL != undefined && <a className="live-link portfolio-link" href={liveURL}>Live Site</a>}
-        <a className="code-link portfolio-link" href={codeURL}>Code</a>
-      </div>
-    );
-  }
-
-  const handleLeftClick = () => {
+  const handleLeftClick: () => void = () => {
     if (device === Mockup.Desktop) {
       setDevice(Mockup.Mobile);
     } else {
@@ -44,7 +32,7 @@ export const PortfolioItem: React.FC<Props> = ({mockups, title, tech, descriptio
     }
   }
 
-  const handleRightClick = () => {
+  const handleRightClick: () => void = () => {
     if (device === Mockup.Mobile) {
       setDevice(Mockup.Desktop);
     } else {

@@ -4,8 +4,8 @@ import LeftArrow from '../../assets/LeftArrow.png';
 import RightArrow from '../../assets/RightArrow.png';
 
 interface Props {
-  handleLeftClick: any,
-  handleRightClick: any
+  handleLeftClick: () => void,
+  handleRightClick: () => void
 }
 
 export const CarouselControls: React.FC<Props> = ({handleLeftClick, handleRightClick}: Props) => {
