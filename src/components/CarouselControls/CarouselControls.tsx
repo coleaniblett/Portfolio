@@ -11,8 +11,8 @@ interface Props {
 export const CarouselControls: React.FC<Props> = ({handleLeftClick, handleRightClick}: Props) => {
   return (
     <div className="carousel-controls">
-      <button className="left-button" onClick={handleLeftClick}><img src={LeftArrow} /></button>
-      <button className="right-button" onClick={handleRightClick}><img src={RightArrow} /></button>
+      <button className="left-button carousel-button" onClick={handleLeftClick}><img src={LeftArrow} /></button>
+      <button className="right-button carousel-button" onClick={handleRightClick}><img src={RightArrow} /></button>
     </div>
   );
 }

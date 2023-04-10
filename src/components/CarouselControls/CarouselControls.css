@@ -1,14 +1,26 @@
-.left-button, .right-button {
+.carousel-button {
   position: absolute;
   bottom: -10%;
+  width: 50%;
+  height: 10%;
+  background-color: hsl(240, 0%, 50%);
+  border-style: none;
+  padding: 0;
+}
+
+.carousel-button:hover, .carousel-button:active {
+  cursor: pointer;
+  background-color: rgba(76, 76, 76, 0.7);
 }
 
 .left-button {
-  left: 10%;
+  left: 0%;
+  border-radius: 0 0 0 20px;
 }
 
 .right-button {
-  right: 10%;
+  right: 0%;
+  border-radius: 0 0 20px 0;
 }
 
 .carousel-controls img {
