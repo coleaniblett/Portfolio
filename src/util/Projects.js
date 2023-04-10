@@ -37,7 +37,7 @@ export const projects = [
     description: "A landing page for musician Amy Yeh made up of React " + 
       "components styled with a combination of Bootstrap and vanilla CSS.",
     type: "tablet",
-    liveURL: undefined,
+    liveURL: "https://coleaniblett.github.io/Musician-Landing-Page",
     codeURL: "https://github.com/coleaniblett/Musician-Landing-Page",
     screenshots: {
       desktop: AmyYehMusicDesktopScreen,
@@ -52,7 +52,7 @@ export const projects = [
     technologies: ["React", "Bootstrap CSS"],
     description: "Built with React, my previous portfolio site showcased my skills in HTML, CSS, and JavaScript. Although I've since moved on to a new design, I'm proud of the work I did on this site.",
     type: "phone",
-    liveURL: undefined,
+    liveURL: "https://coleaniblett.github.io/portfolio",
     codeURL: "https://github.com/coleaniblett/portfolio",
     screenshots: {
       desktop: PortfolioDesktopScreen,
