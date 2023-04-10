@@ -4,25 +4,19 @@ import DesktopMockup from '../../assets/DesktopMockup - Transparent.png';
 import LaptopMockup from '../../assets/LaptopMockup - Transparent.png';
 import TabletMockup from '../../assets/TabletMockup - Transparent.png';
 import MobileMockup from '../../assets/MobileMockup - Transparent.png';
+import { DeviceTypes } from '../../util/DeviceTypes';
 
 interface Props {
   screenshots: any;
-  device: Mockup;
+  device: DeviceTypes;
   name: string;
-}
-
-enum Mockup {
-  "Desktop",
-  "Laptop",
-  "Tablet",
-  "Mobile"
 }
 
 export const MockupCarousel: React.FC<Props> = ({screenshots, device, name}: Props) => {
   let result;
 
   switch (device) {
-  case Mockup.Desktop:
+  case DeviceTypes.Desktop:
     result = (
       <div className="mockup-carousel">
         <img className="mockup-image" src={DesktopMockup} alt="desktop computer mockup" />
@@ -30,7 +24,7 @@ export const MockupCarousel: React.FC<Props> = ({screenshots, device, name}: Pro
       </div>
     );
     break;
-  case Mockup.Laptop:
+  case DeviceTypes.Laptop:
     result = (
       <div className="mockup-carousel">
         <img className="mockup-image" src={LaptopMockup} alt="laptop computer mockup" />
@@ -38,7 +32,7 @@ export const MockupCarousel: React.FC<Props> = ({screenshots, device, name}: Pro
       </div>
     );
     break;
-  case Mockup.Tablet:
+  case DeviceTypes.Tablet:
     result = (
       <div className="mockup-carousel">
         <img className="mockup-image" src={TabletMockup} alt="tablet device mockup" />
@@ -46,7 +40,7 @@ export const MockupCarousel: React.FC<Props> = ({screenshots, device, name}: Pro
       </div>
     );
     break;
-  case Mockup.Mobile:
+  case DeviceTypes.Mobile:
     result = (
       <div className="mockup-carousel">
         <img className="mockup-image" src={MobileMockup} alt="mobile device mockup" />

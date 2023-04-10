@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './PortfolioItem.css';
 import { MockupCarousel } from '../MockupCarousel/MockupCarousel';
 import { CarouselControls } from '../CarouselControls/CarouselControls';
+import { DeviceTypes } from '../../util/DeviceTypes';
 
 interface Props {
   title: string;
@@ -12,27 +13,20 @@ interface Props {
   codeURL: string;
 }
 
-enum Mockup {
-  "Desktop",
-  "Laptop",
-  "Tablet",
-  "Mobile"
-}
-
 export const PortfolioItem: React.FC<Props> = ({title, tech, description, screenshots, liveURL, codeURL}: Props) => {
-  const [device, setDevice] = useState<Mockup>(Mockup.Desktop);
+  const [device, setDevice] = useState<DeviceTypes>(DeviceTypes.Desktop);
 
   const handleLeftClick: () => void = () => {
-    if (device === Mockup.Desktop) {
-      setDevice(Mockup.Mobile);
+    if (device === DeviceTypes.Desktop) {
+      setDevice(DeviceTypes.Mobile);
     } else {
       setDevice(prev => prev - 1);
     }
   }
 
   const handleRightClick: () => void = () => {
-    if (device === Mockup.Mobile) {
-      setDevice(Mockup.Desktop);
+    if (device === DeviceTypes.Mobile) {
+      setDevice(DeviceTypes.Desktop);
     } else {
       setDevice(prev => prev + 1);
     }
