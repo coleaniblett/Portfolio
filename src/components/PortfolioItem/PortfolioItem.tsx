@@ -37,7 +37,7 @@ export const PortfolioItem: React.FC<Props> = ({title, tech, description, screen
       <div className="hover-area">
         <MockupCarousel screenshots={screenshots} device={device} name={title} />
         <div className="portfolio-item-text-container">
-          <h5 className="portfolio-item-text title">{title}</h5>
+          <h5 className="portfolio-item-text">{title}</h5>
           <p className="portfolio-item-text technologies">{tech.join(", ")}</p>
           <p className="portfolio-item-text description">{description}</p>
           {liveURL != undefined && <a className="live-link portfolio-link" href={liveURL}>Live Site</a>}

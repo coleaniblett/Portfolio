@@ -1,0 +1,15 @@
+.header {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  font-family: "Space Mono", monospace;
+  position: fixed;
+}
+
+.title {
+  color: white;
+  padding: 1rem;
+}

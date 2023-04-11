@@ -6,7 +6,7 @@ import Email from '../../assets/Email.png';
 
 export const Links: React.FC = () => {
   return (
-    <div className="links">
+    <div className="links" id="contact">
       <div className="contact-icon LinkedIn-icon">
         <a href="https://linkedin.com/coleaniblett"><img src={LinkedIn} alt="LinkedIn icon" /></a>
       </div>
