@@ -4,7 +4,7 @@ import './Intro.css';
 export const Intro: React.FC = () => {
   return (
     <div className="intro">
-      <div className="intro-text-container">
+      <div className="intro-text-container" id="intro-title">
         <h6>Welcome</h6>
         <p><em>Good web design is like a great conversation</em> - it's 
           engaging, intuitive, and leaves a lasting impression.</p>

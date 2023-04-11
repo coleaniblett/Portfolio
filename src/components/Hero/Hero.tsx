@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import RedDownArrow from '../../assets/RedDownArrow.png';
 
 export const Hero: React.FC = () => {
   return (
@@ -8,6 +9,9 @@ export const Hero: React.FC = () => {
         <h1>C<span>ol</span>e <span>Ni</span>ble<span>tt</span></h1>
         <h3>Frontend <span>Developer</span></h3>
       </div>
+      <a href="#intro-title" className="intro-link">
+        <h3>Learn More</h3>
+      </a>
     </div>
   );
 }

@@ -4,6 +4,9 @@
   font-family: 'Space Mono', monospace;
   background-color: black;
   height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero-text-container {
@@ -36,6 +39,11 @@ h3, h1 span {
     0 0 92px blue,
     0 0 102px blue,
     0 0 151px blue;
+}
+
+.intro-link {
+  padding-bottom: 10%;
+  text-decoration: none;
 }
 
 /* X-small breakpoint */
