@@ -16,6 +16,7 @@
 
 .nav {
   height: 100%;
+  position: relative;
 }
 
 .full-menu {
@@ -28,14 +29,13 @@
   text-decoration: none;
 }
 
-.full-menu li {
-  list-style: none;
-  padding: 0 2rem;
-}
-
 /* Large breakpoint */
 @media screen and (min-width: 992px) {
   .full-menu {
     visibility: visible;
+  }
+  .full-menu li {
+    list-style: none;
+    margin: 0 2rem;
   }
 }
