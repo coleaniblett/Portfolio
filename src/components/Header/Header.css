@@ -13,3 +13,29 @@
   color: white;
   padding: 1rem;
 }
+
+.nav {
+  height: 100%;
+}
+
+.full-menu {
+  display: flex;
+  visibility: hidden;
+}
+
+.full-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.full-menu li {
+  list-style: none;
+  padding: 0 2rem;
+}
+
+/* Large breakpoint */
+@media screen and (min-width: 992px) {
+  .full-menu {
+    visibility: visible;
+  }
+}
