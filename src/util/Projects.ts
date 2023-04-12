@@ -11,7 +11,23 @@ import PortfolioLaptopScreen from '../assets/Portfolio/Portfolio2097x1262.png';
 import PortfolioTabletScreen from '../assets/Portfolio/Portfolio846x1089.png';
 import PortfolioMobileScreen from '../assets/Portfolio/Portfolio432x837.png';
 
-export const projects = [
+type screenshots = {
+  desktop: any,
+  laptop: any,
+  tablet: any,
+  mobile: any
+}
+
+type projectArray = {
+  name: string,
+  technologies: string[],
+  description: string,
+  liveURL: string,
+  codeURL: string,
+  screenshots: screenshots
+}[];
+
+export const projects: projectArray = [
   {
     name: "The Distillation-Combination-Recommendation-Application",
     technologies: ["React", "API calls"],
