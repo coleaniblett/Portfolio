@@ -1,10 +1,10 @@
-import './Header.css';
+import './Navbar.css';
 import React from 'react';
 import { DropdownMenu } from '../DropdownMenu/DropdownMenu';
 
-export const Header: React.FC = () => {
+export const Navbar: React.FC = () => {
   return (
-    <header className="header">
+    <nav className="navbar">
         <p className="title">
           Cole Niblett
         </p>
@@ -17,6 +17,6 @@ export const Header: React.FC = () => {
           </ul>
           <DropdownMenu />
         </div>
-    </header>
+    </nav>
   );
 }

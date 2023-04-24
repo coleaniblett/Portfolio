@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Header } from '../Header/Header';
+import { Navbar } from '../Navbar/Navbar';
 import { Hero } from '../Hero/Hero';
 import { Intro } from '../Intro/Intro';
 import { Portfolio } from '../Portfolio/Portfolio';
@@ -26,7 +26,7 @@ import { Links } from '../Links/Links';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
       <Hero />
       <Intro />
       <Portfolio />
