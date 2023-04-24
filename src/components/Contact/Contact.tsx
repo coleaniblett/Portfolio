@@ -1,12 +1,12 @@
 import React from 'react';
-import './Links.css';
+import './Contact.css';
 import LinkedIn from '../../assets/LinkedIn.png';
 import GitHub from '../../assets/GitHub.png';
 import Email from '../../assets/Email.png';
 
-export const Links: React.FC = () => {
+export const Contact: React.FC = () => {
   return (
-    <div className="links" id="contact">
+    <div className="contact" id="contact">
       <div className="contact-icon LinkedIn-icon">
         <a href="https://linkedin.com/coleaniblett"><img src={LinkedIn} alt="LinkedIn icon" /></a>
       </div>

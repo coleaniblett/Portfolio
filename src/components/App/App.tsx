@@ -6,7 +6,7 @@ import { Intro } from '../Intro/Intro';
 import { Portfolio } from '../Portfolio/Portfolio';
 import { Skills } from '../Skills/Skills';
 import { Education } from '../Education/Education';
-import { Links } from '../Links/Links';
+import { Contact } from '../Contact/Contact';
 
 /*
   TODO:
@@ -32,7 +32,7 @@ function App() {
       <Portfolio />
       <Skills />
       <Education />
-      <Links />
+      <Contact />
     </div>
   );
 }
