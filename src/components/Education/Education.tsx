@@ -3,7 +3,7 @@ import './Education.css';
 
 export const Education: React.FC = () => {
   return (
-    <div className="education">
+    <div className="education" id="education">
       <h6>Education</h6>
       <p><em>De Anza College | Cupertino, CA</em> (January 2021 – March 2022)<br/>
       A.A. Systems Programming, GPA 3.87</p>
