@@ -22,6 +22,8 @@
 .full-menu {
   display: flex;
   visibility: hidden;
+  padding-inline-start: 0;
+  
 }
 
 .full-menu a {
