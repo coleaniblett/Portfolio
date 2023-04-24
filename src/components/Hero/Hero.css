@@ -23,22 +23,12 @@ h3 {
 
 h1, h3 span {
   color: red;
-  text-shadow:
-    0 0 42px red,
-    0 0 82px red,
-    0 0 92px red,
-    0 0 102px red,
-    0 0 151px red;
+
 }
 
 h3, h1 span {
   color: blue;
-  text-shadow:
-    0 0 42px blue,
-    0 0 82px blue,
-    0 0 92px blue,
-    0 0 102px blue,
-    0 0 151px blue;
+
 }
 
 .intro-link {
@@ -66,14 +56,35 @@ h3, h1 span {
   }
 }
 
-/* */
+/* Large breakpoint */
+@media screen and (min-width: 992px) {
+  h1, h3 span {
+    text-shadow:
+      0 0 42px red,
+      0 0 82px red,
+      0 0 92px red,
+      0 0 102px red,
+      0 0 151px red;
+  }
+  
+  h3, h1 span {
+    text-shadow:
+      0 0 42px blue,
+      0 0 82px blue,
+      0 0 92px blue,
+      0 0 102px blue,
+      0 0 151px blue;
+  }
+}
+
+/* XXX-large breakpoint */
 @media screen and (min-width: 1800px) {
   .hero-text-container {
     padding-top: 15%;
   }
 }
 
-/* */
+/* XXXX-large breakpoint */
 @media screen and (min-width: 2150px) {
   .hero-text-container {
     padding-top: 10%;
