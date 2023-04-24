@@ -5,3 +5,19 @@ html {
 body {
   background-color: rgb(66, 65, 65);
 }
+
+/* Scroll effect */
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}

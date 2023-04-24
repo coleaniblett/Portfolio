@@ -6,11 +6,11 @@ import { projects } from '../../util/Projects';
 export const Portfolio: React.FC = () => {
   return (
     <div className="portfolio" id="projects">
-      <h6>Projects</h6>
+      <h6 className="portfolio-title hidden">Projects</h6>
       <div className="projects-container d-flex flex-row">
       {projects.map((project) => {
         return (
-          <div className="project-wrapper" key={project.name}>
+          <div className="project-wrapper hidden" key={project.name}>
             <PortfolioItem 
               screenshots={project.screenshots} 
               title={project.name} 

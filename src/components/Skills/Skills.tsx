@@ -10,8 +10,8 @@ import ReactIcon from '../../assets/SkillIcons/ReactIcon.png';
 export const Skills: React.FC = () => {
   return (
     <div className="skills" id="skills">
-      <h6>Skills</h6>
-      <div className="skills-icon-container">
+      <h6 className="skills-title hidden">Skills</h6>
+      <div className="skills-icon-container hidden">
         <div className="icon html5">
           <img src={HTML5} alt="HTML5" />
         </div>

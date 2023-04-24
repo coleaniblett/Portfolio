@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './App.css';
 import { Navbar } from '../Navbar/Navbar';
 import { Hero } from '../Hero/Hero';
@@ -13,17 +13,33 @@ import { Contact } from '../Contact/Contact';
   - Load effect
   - Animation-rotation through project images
   - Fix mobile hover for carousel buttons
-  - Education section
   - Hover-over effect for skill icons
   - Add effect to skip Hero upon single scroll
-  - Fix glow effect for low res screens
   - Scroll effect
-  - Rename sections
-  - Fix problem with navbar and mockup images
   - Find out how to combine mockup and screen images
+  - Optimize Education section
 */
 
 function App() {
+  const hiddenElementsRef = useRef<NodeListOf<Element> | null>(null);
+
+  useEffect(() => {
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElementsRef.current = hiddenElements;
+    hiddenElements.forEach((element) => observer.observe(element));
+  }, []);
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      console.log(entry);
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      } else {
+        entry.target.classList.remove('show');
+      }
+    });
+  });
+
   return (
     <div className="App">
       <Navbar />
