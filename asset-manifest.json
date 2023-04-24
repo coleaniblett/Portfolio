@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-2.0/static/css/main.07a143ea.css",
-    "main.js": "/portfolio-2.0/static/js/main.47e80fba.js",
+    "main.css": "/portfolio-2.0/static/css/main.e8fae330.css",
+    "main.js": "/portfolio-2.0/static/js/main.ee96862b.js",
     "static/media/DCRA2358x1323.png": "/portfolio-2.0/static/media/DCRA2358x1323.40cd6e9d789721be2193.png",
     "static/media/DCRA2097x1262.png": "/portfolio-2.0/static/media/DCRA2097x1262.eaf48d9d851c0e4eefd0.png",
     "static/media/AmyYehMusic2358x1323.png": "/portfolio-2.0/static/media/AmyYehMusic2358x1323.7f495434b5a68a40eb29.png",
@@ -21,11 +21,11 @@
     "static/media/DesktopMockup - Transparent.png": "/portfolio-2.0/static/media/DesktopMockup - Transparent.965bc1d3989804eb39b7.png",
     "static/media/LaptopMockup - Transparent.png": "/portfolio-2.0/static/media/LaptopMockup - Transparent.34c16f423ede9d9c2c0a.png",
     "index.html": "/portfolio-2.0/index.html",
-    "main.07a143ea.css.map": "/portfolio-2.0/static/css/main.07a143ea.css.map",
-    "main.47e80fba.js.map": "/portfolio-2.0/static/js/main.47e80fba.js.map"
+    "main.e8fae330.css.map": "/portfolio-2.0/static/css/main.e8fae330.css.map",
+    "main.ee96862b.js.map": "/portfolio-2.0/static/js/main.ee96862b.js.map"
   },
   "entrypoints": [
-    "static/css/main.07a143ea.css",
-    "static/js/main.47e80fba.js"
+    "static/css/main.e8fae330.css",
+    "static/js/main.ee96862b.js"
   ]
 }
