@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './MockupCarousel.css';
 import DesktopMockup from '../../assets/DesktopMockup - Transparent.png';
 import LaptopMockup from '../../assets/LaptopMockup - Transparent.png';
@@ -13,41 +13,47 @@ interface Props {
 }
 
 export const MockupCarousel: React.FC<Props> = ({screenshots, device, name}: Props) => {
-  let result;
+  const [result, setResult] = useState((<div></div>));
 
-  switch (device) {
-  case DeviceTypes.Desktop:
-    result = (
-      <div className="mockup-carousel">
-        <img className="mockup-image" src={DesktopMockup} alt="desktop computer mockup" />
-        <img className="desktop-image screenshot" src={screenshots.desktop} alt={`${name} desktop mockup`} />
-      </div>
-    );
-    break;
-  case DeviceTypes.Laptop:
-    result = (
-      <div className="mockup-carousel">
-        <img className="mockup-image" src={LaptopMockup} alt="laptop computer mockup" />
-         <img className="laptop-image screenshot" src={screenshots.laptop} alt={`${name} laptop mockup`} />
-      </div>
-    );
-    break;
-  case DeviceTypes.Tablet:
-    result = (
-      <div className="mockup-carousel">
-        <img className="mockup-image" src={TabletMockup} alt="tablet device mockup" />
-         <img className="tablet-image screenshot" src={screenshots.tablet} alt={`${name} tablet mockup`} />
-      </div>
-    );
-    break;
-  case DeviceTypes.Mobile:
-    result = (
-      <div className="mockup-carousel">
-        <img className="mockup-image" src={MobileMockup} alt="mobile device mockup" />
-         <img className="mobile-image screenshot" src={screenshots.mobile} alt={`${name} mobile mockup`} />
-      </div>
-    );
-    break;
+  useEffect(() => {
+    setCarousel();
+  }, [result]);
+
+  const setCarousel = () => {
+    switch (device) {
+      case DeviceTypes.Desktop:
+        setResult(
+          <div className="mockup-carousel">
+            <img className="mockup-image" src={DesktopMockup} alt="desktop computer mockup" />
+            <img className="desktop-image screenshot" src={screenshots.desktop} alt={`${name} desktop mockup`} />
+          </div>
+        );
+        break;
+      case DeviceTypes.Laptop:
+        setResult(
+          <div className="mockup-carousel">
+            <img className="mockup-image" src={LaptopMockup} alt="laptop computer mockup" />
+             <img className="laptop-image screenshot" src={screenshots.laptop} alt={`${name} laptop mockup`} />
+          </div>
+        );
+        break;
+      case DeviceTypes.Tablet:
+        setResult(
+          <div className="mockup-carousel">
+            <img className="mockup-image" src={TabletMockup} alt="tablet device mockup" />
+             <img className="tablet-image screenshot" src={screenshots.tablet} alt={`${name} tablet mockup`} />
+          </div>
+        );
+        break;
+      case DeviceTypes.Mobile:
+        setResult(
+          <div className="mockup-carousel">
+            <img className="mockup-image" src={MobileMockup} alt="mobile device mockup" />
+             <img className="mobile-image screenshot" src={screenshots.mobile} alt={`${name} mobile mockup`} />
+          </div>
+        );
+        break;
+      }
   }
 
   return (
