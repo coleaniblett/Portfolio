@@ -10,7 +10,7 @@ export const Portfolio: React.FC = () => {
       <div className="projects-container d-flex flex-row">
       {projects.map((project) => {
         return (
-          <div className="project-wrapper hidden" key={project.name}>
+          <div className="project-wrapper" key={project.name}>
             <PortfolioItem 
               screenshots={project.screenshots} 
               title={project.name} 

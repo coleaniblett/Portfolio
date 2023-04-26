@@ -33,7 +33,7 @@ export const PortfolioItem: React.FC<Props> = ({title, tech, description, screen
   }
 
   return (
-    <div className="portfolio-item">
+    <div className="portfolio-item hidden">
       <div className="hover-area">
         <MockupCarousel screenshots={screenshots} device={device} name={title} />
         <div className="portfolio-item-text-container">
