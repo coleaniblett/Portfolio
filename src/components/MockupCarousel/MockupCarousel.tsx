@@ -17,7 +17,7 @@ export const MockupCarousel: React.FC<Props> = ({screenshots, device, name}: Pro
 
   useEffect(() => {
     setCarousel();
-  }, [result]);
+  }, [device]);
 
   const setCarousel = () => {
     switch (device) {
