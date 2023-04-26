@@ -48,4 +48,9 @@
   font-size: 2.5rem;
   text-align: center;
   font-family: "Space Mono", monospace;
+  display: grid;
+}
+
+.icon-text-container h5 {
+  align-self: center;
 }
