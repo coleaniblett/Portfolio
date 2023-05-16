@@ -10,12 +10,10 @@ import { Contact } from '../Contact/Contact';
 
 /*
   TODO:
-  - Animation-rotation through project images
-  - Fix mobile hover for carousel buttons
-  - Center on-hover skill names
-  - Add effect to skip Hero upon single scroll
-  - Find out how to combine mockup and screen images
-  - Turn Skills into a collection component
+  - Animation-rotation through project images (cool feature)
+  - Fix mobile hover for carousel info (mobile bug)
+  - Add effect to skip Hero upon single scroll (cool feature)
+  - Find out how to combine mockup and screen images (significant feature quality issue)
 */
 
 function App() {
