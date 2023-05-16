@@ -17,6 +17,13 @@
   opacity: 1;
 }
 
+@media (hover: none) {
+  .hover-area:active > .portfolio-item-text-container {
+    opacity: 0;
+    
+  }
+}
+
 .portfolio-item-text-container {
   padding: 1rem;
   background-color: rgba(25, 25, 25, 0.9);
