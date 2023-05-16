@@ -63,8 +63,8 @@ export const projects: projectArray = [
     description: "Built with React, my previous portfolio site showcased my " + 
       "skills in HTML, CSS, and JavaScript. Although I've since moved on to a" +
       " new design, I'm proud of the work I did on this site.",
-    liveURL: "https://coleaniblett.github.io/portfolio",
-    codeURL: "https://github.com/coleaniblett/portfolio",
+    liveURL: "https://coleaniblett.github.io/old-portfolio",
+    codeURL: "https://github.com/coleaniblett/old-portfolio",
     screenshots: {
       desktop: PortfolioDesktopScreen,
       laptop: PortfolioLaptopScreen,
