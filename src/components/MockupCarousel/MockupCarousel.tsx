@@ -12,6 +12,8 @@ interface Props {
   name: string;
 }
 
+// TODO: animate carousel movement
+// TODO: combine device, screenshot images into single image
 export const MockupCarousel: React.FC<Props> = ({screenshots, device, name}: Props) => {
   const [result, setResult] = useState((<div></div>));
 

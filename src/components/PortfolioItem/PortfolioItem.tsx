@@ -13,6 +13,8 @@ interface Props {
   codeURL: string;
 }
 
+// TODO: fix bug with hiding .portfolio-item-text-container on mobile device
+// TODO: disable .portfolio-link while .portfolio-item-text-container is hidden
 export const PortfolioItem: React.FC<Props> = ({title, tech, description, screenshots, liveURL, codeURL}: Props) => {
   const [device, setDevice] = useState<DeviceTypes>(DeviceTypes.Desktop);
 

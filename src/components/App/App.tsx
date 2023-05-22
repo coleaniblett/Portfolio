@@ -8,14 +8,6 @@ import { Skills } from '../Skills/Skills';
 import { Education } from '../Education/Education';
 import { Contact } from '../Contact/Contact';
 
-/*
-  TODO:
-  - Animation-rotation through project images (cool feature)
-  - Fix mobile hover for carousel info (mobile bug)
-  - Add effect to skip Hero upon single scroll (cool feature)
-  - Find out how to combine mockup and screen images (significant feature quality issue)
-*/
-
 function App() {
   const hiddenElementsRef = useRef<NodeListOf<Element> | null>(null);
 

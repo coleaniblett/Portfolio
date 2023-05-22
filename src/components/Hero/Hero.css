@@ -77,14 +77,14 @@ h3, h1 span {
   }
 }
 
-/* XXX-large breakpoint */
+/* X*3-large breakpoint */
 @media screen and (min-width: 1800px) {
   .hero-text-container {
     padding-top: 15%;
   }
 }
 
-/* XXXX-large breakpoint */
+/* X*4-large breakpoint */
 @media screen and (min-width: 2150px) {
   .hero-text-container {
     padding-top: 10%;

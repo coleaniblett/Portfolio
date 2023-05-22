@@ -16,6 +16,7 @@ export const Navbar: React.FC = () => {
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+          {/* TODO: replace DropdownMenu component with hamburger component */}
           <DropdownMenu />
         </div>
     </nav>

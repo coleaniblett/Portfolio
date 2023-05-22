@@ -2,6 +2,7 @@ import React from 'react';
 import './Hero.css';
 import RedDownArrow from '../../assets/RedDownArrow.png';
 
+// TODO: add effect to skip Hero with single scroll
 export const Hero: React.FC = () => {
   return (
     <div className="hero">
