@@ -11,7 +11,7 @@
 
 .title {
   color: white;
-  padding: 1rem;
+  margin-left: 1em;
 }
 
 .nav {
@@ -29,6 +29,14 @@
 .full-menu a {
   color: white;
   text-decoration: none;
+}
+
+/* Small breakpoint */
+@media screen and (min-width: 576px) {
+  .title {
+    padding: 1rem;
+    margin-left: 0;
+  }
 }
 
 /* Large breakpoint */

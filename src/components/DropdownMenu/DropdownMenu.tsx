@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './DropdownMenu.css';
+import { Menu } from '@mui/icons-material';
 
 export const DropdownMenu: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ export const DropdownMenu: React.FC = () => {
   return (
     <div className="dropdown">
       <button className="menu-button" onClick={toggleMenu}>
-        Menu
+        <Menu />
       </button>
       {isOpen && (
         <ul className="dropdown-menu">
