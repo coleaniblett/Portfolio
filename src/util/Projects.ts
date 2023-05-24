@@ -48,8 +48,8 @@ export const projects: projectArray = [
     technologies: ["React", "TypeScript", "Bootstrap CSS"],
     description: "A landing page for musician Amy Yeh made up of React " + 
       "components styled with a combination of Bootstrap and vanilla CSS.",
-    liveURL: "https://coleaniblett.github.io/Musician-Landing-Page",
-    codeURL: "https://github.com/coleaniblett/Musician-Landing-Page",
+    liveURL: "https://coleaniblett.github.io/amy-yeh-music",
+    codeURL: "https://github.com/coleaniblett/amy-yeh-music",
     screenshots: {
       desktop: AmyYehMusicDesktopScreen,
       laptop: AmyYehMusicLaptopScreen,
