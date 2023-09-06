@@ -12,6 +12,7 @@
 .title {
   color: white;
   margin-left: 1em;
+  
 }
 
 .nav {
@@ -26,7 +27,7 @@
   
 }
 
-.full-menu a {
+.title a, .full-menu a {
   color: white;
   text-decoration: none;
 }

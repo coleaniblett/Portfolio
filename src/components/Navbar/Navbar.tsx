@@ -6,7 +6,7 @@ export const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
         <p className="title">
-          Cole Niblett
+          <a href="#start">Cole Niblett</a>
         </p>
         <div className="nav">
           <ul className="full-menu">
