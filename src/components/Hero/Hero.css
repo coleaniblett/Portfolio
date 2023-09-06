@@ -10,7 +10,7 @@
 }
 
 .hero-text-container {
-  padding: 30% 5% 20%;
+  padding: 15dvh 5dvh;
 }
 
 h1 {
@@ -38,21 +38,11 @@ h3, h1 span {
 
 /* X-small breakpoint */
 @media screen and (max-width:575px) {
-  .hero-text-container {
-    padding-top: 15%;
-  }
   h1 {
     font-size: 4.5rem;
   }
   h3 {
     font-size: 2rem;
-  }
-}
-
-/* Small breakpoint */
-@media screen and (min-width:576px) {
-  .hero-text-container {
-    padding-top: 20%;
   }
 }
 
@@ -77,19 +67,17 @@ h3, h1 span {
   }
 }
 
-/* X*3-large breakpoint */
-@media screen and (min-width: 1800px) {
-  .hero-text-container {
-    padding-top: 15%;
-  }
-}
 
-/* X*4-large breakpoint */
-@media screen and (min-width: 2150px) {
-  .hero-text-container {
-    padding-top: 10%;
-  }
-}
+
+
+
+
+
+
+
+
+
+
 
 /* Alternative Idea */
 
