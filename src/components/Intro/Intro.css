@@ -1,11 +1,11 @@
 .intro {
-  padding-top: 16rem;
+  padding-top: 20rem;
   background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 45%);
 }
 
 .intro-text-container {
   max-width: 800px;
-  padding: 5%;
+  padding: 0 5%;
   margin: auto;
 }
 
