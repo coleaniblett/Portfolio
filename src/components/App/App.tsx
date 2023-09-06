@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from 'react';
 import './App.css';
 import { Navbar } from '../Navbar/Navbar';
 import { Hero } from '../Hero/Hero';
-import { Intro } from '../Intro/Intro';
-import { Portfolio } from '../Portfolio/Portfolio';
+import { Welcome } from '../Welcome/Welcome';
+import { Portfolio } from '../Projects/Projects';
 import { Skills } from '../Skills/Skills';
 import { Education } from '../Education/Education';
 import { Contact } from '../Contact/Contact';
@@ -31,7 +31,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Intro />
+      <Welcome />
       <Portfolio />
       <Skills />
       <Education />

@@ -1,7 +1,7 @@
 import React from 'react';
-import './Intro.css';
+import './Welcome.css';
 
-export const Intro: React.FC = () => {
+export const Welcome: React.FC = () => {
   return (
     <div className="intro">
       <div className="intro-text-container" id="intro-title">

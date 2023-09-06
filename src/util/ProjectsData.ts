@@ -27,7 +27,7 @@ type projectArray = {
   screenshots: screenshots
 }[];
 
-export const projects: projectArray = [
+export const projectData: projectArray = [
   {
     name: "The Distillation-Combination-Recommendation-Application",
     technologies: ["React", "API calls"],
