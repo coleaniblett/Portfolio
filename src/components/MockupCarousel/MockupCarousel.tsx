@@ -21,21 +21,22 @@ export const MockupCarousel: React.FC<Props> = ({screenshots, device, name}: Pro
     setCarousel();
   }, [device]);
 
+
   const setCarousel = () => {
     switch (device) {
       case DeviceTypes.Desktop:
         setResult(
           <div className="mockup-carousel">
-            <img className="mockup-image" src={DesktopMockup} alt="desktop computer mockup" />
-            <img className="desktop-image screenshot" src={screenshots.desktop} alt={`${name} desktop mockup`} />
+              <img className="mockup-image" src={DesktopMockup} alt="desktop computer mockup" />
+              <img className="desktop-image screenshot" src={screenshots.desktop} alt={`${name} desktop mockup`} />
           </div>
         );
         break;
       case DeviceTypes.Laptop:
         setResult(
           <div className="mockup-carousel">
-            <img className="mockup-image" src={LaptopMockup} alt="laptop computer mockup" />
-             <img className="laptop-image screenshot" src={screenshots.laptop} alt={`${name} laptop mockup`} />
+              <img className="mockup-image" src={LaptopMockup} alt="laptop computer mockup" />
+              <img className="laptop-image screenshot" src={screenshots.laptop} alt={`${name} laptop mockup`} />
           </div>
         );
         break;

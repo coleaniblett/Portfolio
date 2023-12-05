@@ -1,15 +1,15 @@
-import DCRADesktopScreen from '../assets/DCRA/DCRA2358x1323.png';
-import DCRALaptopScreen from '../assets/DCRA/DCRA2097x1262.png';
-import DCRATabletScreen from '../assets/DCRA/DCRA846x1089.png';
-import DCRAMobileScreen from '../assets/DCRA/DCRA432x837.png';
-import AmyYehMusicDesktopScreen from '../assets/AmyYehMusic/AmyYehMusic2358x1323.png';
-import AmyYehMusicLaptopScreen from '../assets/AmyYehMusic/AmyYehMusic2097x1262.png';
-import AmyYehMusicTabletScreen from '../assets/AmyYehMusic/AmyYehMusic846x1089.png';
-import AmyYehMusicMobileScreen from '../assets/AmyYehMusic/AmyYehMusic432x837.png';
-import PortfolioDesktopScreen from '../assets/Portfolio/Portfolio2358x1323.png';
-import PortfolioLaptopScreen from '../assets/Portfolio/Portfolio2097x1262.png';
-import PortfolioTabletScreen from '../assets/Portfolio/Portfolio846x1089.png';
-import PortfolioMobileScreen from '../assets/Portfolio/Portfolio432x837.png';
+import DCRADesktopScreen from '../assets/DCRA/DCRA2358x1323_shrunk.png';
+import DCRALaptopScreen from '../assets/DCRA/DCRA2097x1262_shrunk.png';
+import DCRATabletScreen from '../assets/DCRA/DCRA846x1089_shrunk.png';
+import DCRAMobileScreen from '../assets/DCRA/DCRA432x837_shrunk.png';
+import AmyYehMusicDesktopScreen from '../assets/AmyYehMusic/AmyYehMusic2358x1323_shrunk.png';
+import AmyYehMusicLaptopScreen from '../assets/AmyYehMusic/AmyYehMusic2097x1262_shrunk.png';
+import AmyYehMusicTabletScreen from '../assets/AmyYehMusic/AmyYehMusic846x1089_shrunk.png';
+import AmyYehMusicMobileScreen from '../assets/AmyYehMusic/AmyYehMusic432x837_shrunk.png';
+import PortfolioDesktopScreen from '../assets/Portfolio/Portfolio2358x1323_shrunk.png';
+import PortfolioLaptopScreen from '../assets/Portfolio/Portfolio2097x1262_shrunk.png';
+import PortfolioTabletScreen from '../assets/Portfolio/Portfolio846x1089_shrunk.png';
+import PortfolioMobileScreen from '../assets/Portfolio/Portfolio432x837_shrunk.png';
 
 type screenshots = {
   desktop: any,

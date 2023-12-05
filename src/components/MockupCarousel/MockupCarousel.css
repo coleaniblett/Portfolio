@@ -1,3 +1,8 @@
+@keyframes introduceMockup {
+  0% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+
 .carousel-wrapper {
   width:100%;
   height: 100%;
@@ -10,6 +15,8 @@
   height: 100%;
   align-items: center;
   justify-items: center;
+  animation-name: introduceMockup;
+  animation-duration: 1s;
 }
 
 .mockup-image {
