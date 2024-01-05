@@ -1,0 +1,38 @@
+.dropdown {
+  overflow:visible;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  margin-right: 1em;
+}
+
+.menu-button {
+  border-width: 0;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.125rem;
+  color: white;
+  background-color: transparent;
+  float: right;
+}
+
+.dropdown-menu {
+  text-align: right;
+}
+
+.dropdown-menu li {
+  padding: 1rem 0.5rem 0 0;
+  list-style: none;
+}
+
+
+.dropdown-menu li a:hover {
+  font-style:italic;
+}
+
+/* Large breakpoint */
+@media screen and (min-width: 992px) {
+  .dropdown button, .dropdown li {
+    visibility: hidden;
+    width: 0;
+  }
+}

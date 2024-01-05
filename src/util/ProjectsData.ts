@@ -1,92 +1,53 @@
-import DCRADesktopScreen from '../assets/DCRA/DCRA2358x1323_shrunk.png';
-import DCRALaptopScreen from '../assets/DCRA/DCRA2097x1262_shrunk.png';
-import DCRATabletScreen from '../assets/DCRA/DCRA846x1089_shrunk.png';
-import DCRAMobileScreen from '../assets/DCRA/DCRA432x837_shrunk.png';
-import AmyYehMusicDesktopScreen from '../assets/AmyYehMusic/AmyYehMusic2358x1323_shrunk.png';
-import AmyYehMusicLaptopScreen from '../assets/AmyYehMusic/AmyYehMusic2097x1262_shrunk.png';
-import AmyYehMusicTabletScreen from '../assets/AmyYehMusic/AmyYehMusic846x1089_shrunk.png';
-import AmyYehMusicMobileScreen from '../assets/AmyYehMusic/AmyYehMusic432x837_shrunk.png';
-import PortfolioDesktopScreen from '../assets/Portfolio/Portfolio2358x1323_shrunk.png';
-import PortfolioLaptopScreen from '../assets/Portfolio/Portfolio2097x1262_shrunk.png';
-import PortfolioTabletScreen from '../assets/Portfolio/Portfolio846x1089_shrunk.png';
-import PortfolioMobileScreen from '../assets/Portfolio/Portfolio432x837_shrunk.png';
-
-type screenshots = {
-  desktop: any,
-  laptop: any,
-  tablet: any,
-  mobile: any
-}
+import DCRA from '../assets/images/DCRA2097x1262_shrunk.png';
+import AmyYehMusic from '../assets/images/AmyYehMusic2097x1262_shrunk.png';
+import Portfolio from '../assets/images/Portfolio2097x1262_shrunk.png';
+import Katoche from '../assets/images/katoche.gif';
 
 type projectArray = {
   name: string,
   technologies: string[],
-  description: string,
+  shortDescription: string,
+  longDescription: string,
   liveURL: string,
   codeURL: string,
-  screenshots: screenshots
+  image: any
 }[];
 
 export const projectData: projectArray = [
   {
     name: "The Distillation-Combination-Recommendation-Application",
-    technologies: ["React", "API calls"],
-    description: "A cocktail-recommendation app. Users input " 
-      + "their available ingredients and receive a list of cocktails"
-      + " determined through API calls to TheCocktailDB.",
-    liveURL: "https://coleaniblett.github.io/Distillation-Combination-Recommendation-Application/",
+    technologies: ["React", "Asynchronous JavaScript"],
+    shortDescription: "Recipe-recommendation app based on TheCocktailDB API.",
+    longDescription: "This front-end web application allows users to input a list of ingredients and returns a list of suggested cocktail recipes. API consumption is optimized through the use of concurrent operations. Hosted on the cloud with S3, CloudFront, and Route 53.",
+    liveURL: "https://distillation-combination-recommendation-application.com/",
     codeURL: "https://github.com/coleaniblett/Distillation-Combination-Recommendation-Application",
-    screenshots: {
-      desktop: DCRADesktopScreen,
-      laptop: DCRALaptopScreen,
-      tablet: DCRATabletScreen,
-      mobile: DCRAMobileScreen
-    }
+    image: DCRA
   },
   {
     name: "Amy Yeh Music",
     technologies: ["React", "TypeScript", "Bootstrap CSS"],
-    description: "A landing page for musician Amy Yeh made up of React " + 
-      "components styled with a combination of Bootstrap and vanilla CSS.",
+    shortDescription: "Professional landing page.",
+    longDescription: "This landing page introduces visitors to the professional services of musician and composer Amy Yeh. Primarily styled using Bootstrap, with some vanilla CSS.",
     liveURL: "https://coleaniblett.github.io/amy-yeh-music",
     codeURL: "https://github.com/coleaniblett/amy-yeh-music",
-    screenshots: {
-      desktop: AmyYehMusicDesktopScreen,
-      laptop: AmyYehMusicLaptopScreen,
-      tablet: AmyYehMusicTabletScreen,
-      mobile: AmyYehMusicMobileScreen
-    }
+    image: AmyYehMusic
   },
   {
     name: "Resume/Portfolio Site",
     technologies: ["React", "Bootstrap CSS"],
-    description: "Built with React, my previous portfolio site showcased my " + 
-      "skills in HTML, CSS, and JavaScript. Although I've since moved on to a" +
-      " new design, I'm proud of the work I did on this site.",
+    shortDescription: "My previous website.",
+    longDescription: "This portfolio site previously showcased several of my earlier projects. Although I've since moved on to a new design, I'm proud of the work I did on this site.",
     liveURL: "https://coleaniblett.github.io/old-portfolio",
     codeURL: "https://github.com/coleaniblett/old-portfolio",
-    screenshots: {
-      desktop: PortfolioDesktopScreen,
-      laptop: PortfolioLaptopScreen,
-      tablet: PortfolioTabletScreen,
-      mobile: PortfolioMobileScreen
-    }
+    image: Portfolio
   },
-  /*{
-    image: DesktopMockup,
+  {
     name: "Katoche",
-    technologies: ["C++", "OOP"],
-    description: "A text-based adventure game. Users describe player commands "
-      + "in natural language to be interpreted by a parser, solving puzzles " +
-      "while exploring an underground dungeon.",
-    type: "laptop",
-    liveURL: undefined,
+    technologies: ["C++"],
+    shortDescription: "Text-based adventure game, inspired by Zork.",
+    longDescription: "This console application depicts an interactive puzzle-based dungeon. A robust user input parser and command interpreter allows players to interact with game world using natural language. Developed using object-oriented programming principles.",
+    liveURL: "",
     codeURL: "https://github.com/coleaniblett/Katoche",
-    screenshots: {
-      desktop: DCRADesktopScreen,
-      laptop: DCRALaptopScreen,
-      tablet: DCRATabletScreen,
-      mobile: DCRAMobileScreen
-    }
-  }*/
+    image: Katoche
+  }
 ]

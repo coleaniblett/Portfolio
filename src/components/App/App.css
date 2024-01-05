@@ -3,21 +3,34 @@ html {
 }
 
 body {
+  color: white;
   background-color: rgb(66, 65, 65);
 }
 
-/* Scroll effect */
-.hidden {
-  opacity: 0;
-  transition: all 1s;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-.show {
-  opacity: 1;
+/* section headings */
+h6 {
+  font-family: 'Space Mono', monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 3.5rem;
 }
 
-@media(prefers-reduced-motion) {
-  .hidden {
-    transition: none;
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
   }
 }

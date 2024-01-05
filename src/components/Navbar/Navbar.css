@@ -1,5 +1,6 @@
 .navbar {
   z-index: 100;
+  box-sizing: border-box;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -9,41 +10,32 @@
   position: fixed;
 }
 
-.title {
+.logo {
   color: white;
-  margin-left: 1em;
-  
+  padding: 1rem;
+  margin-left: 1.5rem;
 }
 
-.nav {
-  height: 100%;
-  position: relative;
+.logo-anchor {
+  text-decoration: none;
+  padding-left: 0;
 }
 
 .full-menu {
   display: flex;
   visibility: hidden;
-  padding-inline-start: 0;
-  
+  max-width: 0;
 }
 
-.title a, .full-menu a {
-  color: white;
-  text-decoration: none;
-}
-
-/* Small breakpoint */
-@media screen and (min-width: 576px) {
-  .title {
-    padding: 1rem;
-    margin-left: 0;
-  }
+.full-menu li a:hover {
+  font-style: italic;
 }
 
 /* Large breakpoint */
 @media screen and (min-width: 992px) {
   .full-menu {
     visibility: visible;
+    max-width: none;
   }
   .full-menu li {
     list-style: none;
