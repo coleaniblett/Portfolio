@@ -18,6 +18,7 @@
 
 .card-title {
   height: 20px;
+  font-size: large;
   margin-top: 0.5rem;
 }
 
@@ -42,7 +43,7 @@
 
 .overlay-text {
   padding: 0.5rem 1rem 1rem 1rem;
-  font-size: 0.9rem;
+  font-size: 1.125rem;
 }
 
 .button {
