@@ -22,7 +22,7 @@ export const Project: React.FC<Props> = ({title, tech, shortDescription, longDes
       </div>
       <div className="overlay project-overlay">
         <div className="overlay-text">
-          <h5 className="card-title">{title}</h5>
+          <h5 className="project-overlay-title">{title}</h5>
           <p className="card-text tech"><small className="text-muted">{tech.join(' | ')}</small></p>
           <p className="card-text description">{longDescription}</p>
           <div className="button-group">
