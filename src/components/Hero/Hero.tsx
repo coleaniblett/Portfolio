@@ -15,12 +15,9 @@ export const Hero: React.FC = () => {
         <p className="hero-welcome">And if you're reading this, I'm glad you're here.</p>
         <hr></hr>
         <div className="button-wrapper">
-        <button className="button hero-button" onClick={() => window.open("https://github.com/coleaniblett", "_blank")}>GitHub</button>
-        <button className="button hero-button" onClick={() => window.open("https://www.linkedin.com/in/cole-niblett-9742b9156/", "_blank")}>LinkedIn</button>
-        <button className="button hero-button" onClick={() => window.location.href = "mailto:coleaniblett@gmail.com"}>Email</button>
-          {/*<a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer" className="button">GitHub</a>
-          <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer" className="button">LinkedIn</a>
-  <a href="mailto:your-email@example.com" className="button">Email</a>*/}
+          <button className="button hero-button" onClick={() => window.open("https://github.com/coleaniblett", "_blank")}>GitHub</button>
+          <button className="button hero-button" onClick={() => window.open("https://www.linkedin.com/in/cole-niblett-9742b9156/", "_blank")}>LinkedIn</button>
+          <button className="button hero-button" onClick={() => window.location.href = "mailto:coleaniblett@gmail.com"}>Email</button>
         </div>
       </div>
     </div>
