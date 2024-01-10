@@ -1,44 +1,21 @@
-.card {
-  min-width: 100px;
-  min-height: 100px;
-  border-radius: 30px;
-  background-color: rgba(76, 76, 77, 0.986);
-  position: relative;
-}
-
-.card-img-top {
+.project-img-top {
   width: 100%;
   object-fit: cover;
 }
 
-.card-body {
+.project-body {
   height: 110px;
   padding: 0 1rem 1rem 1rem;
 }
 
-.card-title {
+.project-title {
   height: 20px;
   font-size: large;
   margin-top: 0.5rem;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  transition: opacity 0.5s ease-out;
-}
-
 .project-overlay {
   border-radius: 0 0 30px 30px;
-}
-
-.card:hover .overlay {
-  opacity: 1;
 }
 
 .overlay-text {

@@ -15,9 +15,9 @@ export const Project: React.FC<Props> = ({title, tech, shortDescription, longDes
 
   return (
     <div className="card">
-      <img className="card-img-top" src={image} alt={title} />
-      <div className="card-body">
-        <h5 className="card-title">{title}</h5>
+      <img className="project-img-top" src={image} alt={title} />
+      <div className="project-body">
+        <h5 className="project-title">{title}</h5>
         <p className="card-text description">{shortDescription}</p>
       </div>
       <div className="overlay project-overlay">

@@ -1,5 +1,4 @@
 import React from 'react';
-import './ProjectGallery.css';
 import { Project } from './Project/Project';
 import { projectData } from '../../util/ProjectsData';
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import './SkillGallery.css';
 import { SkillsArray } from "../../util/Skills";
 import { Skill } from './Skill/Skill';
 
