@@ -4,7 +4,7 @@ html {
 
 body {
   color: white;
-  background-color: rgb(66, 65, 65);
+  background: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(85,75,75,1) 100%);
 }
 
 .app {
